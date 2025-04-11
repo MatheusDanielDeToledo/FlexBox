@@ -182,12 +182,20 @@ h2{
     padding: 10px;
 }
 
-.botao {
-    width: 100%;
-    height: auto;
+#botao{
     display: flex;
-    align-self: center;
+    align-items: center;
     justify-content: center;
+}
+
+button {
+    width: 10%;
+    height: auto;
+    
+
+    background-color: darkred;
+    padding: 10px;
+    border-radius: 10px;
 }
 
 .login .container{
@@ -213,7 +221,7 @@ h2{
 .form{
     background-color: whitesmoke;
     width: 70%;
-    height: 600px;
+    height: 700px;
 
     display: flex;
     flex-direction: column;
@@ -221,6 +229,10 @@ h2{
 
     border-radius: 10px;
 
+}
+
+.camp{
+    width: 100%;
 }
 
 .titulo{
@@ -231,10 +243,41 @@ h2{
 #texto{
     font-weight: 500;
     color: darksalmon;
+    align-self: flex-start;
+    margin-left: 20%;
 }
 
-.input_codigo{
-    width: 100%;
+.codigo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nome{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.email{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.senha{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.confiSenha{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#input_nome{
+    width: 60%;
+    display: flex;
+    padding: 10px;
 }
 
 #input{
